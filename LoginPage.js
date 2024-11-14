@@ -11,14 +11,14 @@ const { height } = Dimensions.get("window");
 const LoginPage = ({ navigation }) => {
   return (
     <ImageBackground
-      source={require('./assets/image2.png')} // Remplacez par le chemin de votre image de fond
+      source={require('./assets/gaz 2.jpg')} // Remplacez par le chemin de votre image de fond
       style={styles.background}
     >
       <SafeAreaView style={styles.safeAreaView}>
         <View style={styles.container}>
         <View style={styles.logoContainer}>
             <Image
-              source={require('./assets/image2.png')} // Remplacez par le chemin de votre logo
+              source={require('./assets/gaz 2.jpg')} // Remplacez par le chemin de votre logo
               style={styles.logo}
             />
           </View>
@@ -48,7 +48,7 @@ const LoginPage = ({ navigation }) => {
         </View>
         <View style={styles.footerContainer}>
           <Text style={styles.footerText}>
-            InvesTRACK 360 ☺️
+          HydroTrack 360 ☺️
           </Text>
         </View>
       </SafeAreaView>
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.xlarge,
     fontFamily: Fonts['poppinsBold'],
     fontWeight: 'bold',
-    color: Colors.onprimary,
+    color: Colors.darkGray,
     textAlign: 'center',
     marginBottom: Spacing.large,
   },
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
   },
   loginButton: {
     height:'6%',
-    backgroundColor: Colors.onprimary,
+    backgroundColor: Colors.darkGray,
     paddingHorizontal: Spacing.large,
     paddingVertical: Spacing.medium,
     borderRadius: Spacing.large,

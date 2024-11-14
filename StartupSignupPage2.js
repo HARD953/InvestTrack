@@ -47,13 +47,13 @@ const StartupSignupPage2 = ({ navigation }) => {
     
   return (
     <ImageBackground
-      source={require('./assets/image5.png')} // Remplacez par le chemin de votre image de fond
+      source={require('./assets/images/De-lor-en-image.jpg')} // Remplacez par le chemin de votre image de fond
       style={styles.background}
     >
       <SafeAreaView style={styles.safeAreaView}>
         <ScrollView contentContainerStyle={styles.scrollViewContent}>
           <View style={styles.headerContainer}>
-            <Text style={styles.headerText}>Inscription Startup - Page 2</Text>
+            <Text style={styles.headerText}>Enrolement structure EMAPA 2</Text>
           </View>
           <View style={styles.formContainer}>
             <TextInput style={styles.input} placeholder="Chiffre d'affaires actuel" placeholderTextColor={Colors.placeholder} keyboardType="numeric" />

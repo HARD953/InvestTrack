@@ -8,15 +8,15 @@ import Colors from './constants/Colors';
 const { height } = Dimensions.get("window");
 
 const images = [
-  require("./assets/image4.png"),
-  require("./assets/image2.png"),
+  require("./assets/gaz 1.jpg"),
+  require("./assets/gaz 2.jpg"),
   // ajoutez autant d'images que nécessaire
 ];
 
 const Accueil = ({ navigation }) => {
   return (
     <ImageBackground
-      source={require('./assets/image5.png')} // Remplacez par le chemin de votre image de fond
+      source={require('./assets/gaz 1.jpg')} // Remplacez par le chemin de votre image de fond
       style={styles.background}
     >
       <SafeAreaView style={styles.safeAreaView}>
@@ -39,10 +39,10 @@ const Accueil = ({ navigation }) => {
         </View>
         <View style={styles.textContainer}>
           <Text style={styles.headerText}>
-            Decouverte des business angel, des private equity et des venture capital
+          HydroTrack : Solution Intelligente de Gestion et de Traçabilité des Hydrocarbures en Côte d'Ivoire
           </Text>
           <Text style={styles.subHeaderText}>
-            Les devéloppement de nos startup en accelerer grace au private equity et au business angel
+          Ministère des mines du pétrole et de l'énergie
           </Text>
         </View>
         <View style={styles.buttonsContainer}>
@@ -59,7 +59,7 @@ const Accueil = ({ navigation }) => {
         </View>
         <View style={styles.footerContainer}>
           <Text style={styles.footerText}>
-            InvesTRACK 360 ☺️
+          HydroTrack ☺️
           </Text>
         </View>
       </SafeAreaView>
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.slarge,
     fontFamily: Fonts['poppinsBold'],
     fontWeight: 'bold',
-    color: Colors.onprimary,
+    color: "black",
     textAlign: 'center',
   },
   subHeaderText: {
@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
     marginHorizontal: Spacing.large,
   },
   loginButton: {
-    backgroundColor: Colors.onprimary,
+    backgroundColor: Colors.darkGray,
     paddingHorizontal: Spacing.large,
     paddingVertical: Spacing.large,
     width: '48%',

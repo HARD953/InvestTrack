@@ -19,13 +19,13 @@ const StartupSignupPage1 = ({ navigation }) => {
 const currentStep = 2; // Adjust this to reflect the current step
   return (
     <ImageBackground
-      source={require('./assets/image5.png')} // Remplacez par le chemin de votre image de fond
+      source={require('./assets/images/De-lor-en-image.jpg')} // Remplacez par le chemin de votre image de fond
       style={styles.background}
     >
       <SafeAreaView style={styles.safeAreaView}>
         <ScrollView contentContainerStyle={styles.scrollViewContent}>
             <View style={styles.headerContainer}>
-            <Text style={styles.headerText}>Inscription Startup -1</Text>
+            <Text style={styles.headerText}>Enrolement structure EMAPE 1</Text>
           </View>
           <View style={styles.formContainer}>
             <TextInput style={styles.input} placeholder="Nom de l'entreprise" placeholderTextColor={Colors.placeholder} />

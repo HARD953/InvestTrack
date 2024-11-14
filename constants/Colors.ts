@@ -36,6 +36,7 @@ const Colors = {
   lightgreen: '#27AE60',
   argent: '#DCDCDC',
   bleu: '#D6EAF8',
+  gold:'#FFD700'
   // Ajoutez d'autres couleurs si nécessaire
 };
 
